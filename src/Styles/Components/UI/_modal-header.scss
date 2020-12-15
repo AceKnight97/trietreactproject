@@ -1,0 +1,28 @@
+.modal-header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: $size-56;
+  padding: 0 $size-24;
+  border-bottom: $size-1 solid $gray-5;
+  .modal-header-title {
+    color: $gray-9;
+    font-weight: 600;
+    font-size: $size-16;
+    line-height: $size-24;
+  }
+  button {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none !important;
+    outline: none !important;
+    font-size: $size-12;
+    color: $gray-9 !important;
+    min-width: $size-18;
+    min-height: $size-18;
+  }
+}

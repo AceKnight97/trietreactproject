@@ -1,0 +1,9 @@
+@import "./Layout/index";
+.appointment-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: $size-24;
+  .ant-row {
+    height: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+@import "./bioflux-diagnosis";
+@import "./login-authoriztion";
+
+.afib-information-wrapper,
+.input-baseline-info-step2-wrapper,
+.input-baseline-info-step3-wrapper,
+.bioflux-diagnosis-wrapper,
+.past-medical-conditions-wrapper,
+.input-baseline-info-step6-wrapper,
+.input-baseline-info-step7-wrapper,
+.input-baseline-info-step8-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  overflow: auto;
+}

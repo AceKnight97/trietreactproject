@@ -1,0 +1,54 @@
+.header {
+    &-main {
+        width: 100%;
+        height: $size-64;
+        background-color: $gray-1;
+        padding-right: $size-24;
+        border: $size-1 solid $bg;
+    }
+    // &-right div:nth-child(2){
+    //     margin-right: $size-16;
+    // }
+    // &-right div:first-child{
+    //     margin-right: $size-20;
+    // }
+    &-right-16 {
+        margin-right: $size-16;
+    }
+    &-arrow-icon {
+        color: $gray-8;
+        vertical-align: baseline;
+    }
+    &-bell-icon {
+        font-size: $size-20;
+    }
+    &-dropdown {
+        margin: 0 !important;
+    }
+    &-menu {
+        top: 4.75rem !important;
+    }
+    &-notifi-button {
+        border: none;
+        outline: none !important;
+        padding: 0;
+        margin-right: $size-28;
+        svg {
+            color: $gray-9;
+        }
+    }
+}
+//custom
+.ant-badge-count {
+    // padding: 0 6px 0 6px;
+    border-radius: $size-16;
+    background: $red-5;
+    border: $size-1 solid white;
+    box-sizing: border-box;
+    height: $size-18;
+    width: $size-23;
+    right: $size-0-3;
+    .ant-scroll-number-only-unit {
+        padding-top: $size-1;
+    }
+}

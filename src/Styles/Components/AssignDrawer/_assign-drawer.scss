@@ -1,0 +1,35 @@
+.assign-drawer-wrapper {
+    padding: $size-24;
+    .search {
+        &-result {
+            width: 100%;
+            margin: $size-16 0 $size-40 0;
+            // .result-tag {
+            //     padding: $size-8 $size-16;
+            //     border: none;
+            //     cursor: pointer;
+            //     margin: 0;
+            // }
+        }
+        &-input {
+            margin-top: $size-16;
+        }
+        &-title {
+        }
+    }
+    .assign-button-group {
+        .btn-assign {
+            width: 100%;
+        }
+        .btn-assign-to-me {
+            margin-right: $size-24;
+            color: $blue-5;
+            border-color: $blue-5;
+        }
+    }
+    .ant-select-arrow {
+        font-size: $size-12-05;
+        width: $size-16;
+        height: $size-16;
+    }
+}

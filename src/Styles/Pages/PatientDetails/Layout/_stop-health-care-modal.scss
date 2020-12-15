@@ -1,0 +1,7 @@
+.stop-health-care-modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  .shc-modal-body {
+    padding: $size-24 $size-20-05;
+  }
+}

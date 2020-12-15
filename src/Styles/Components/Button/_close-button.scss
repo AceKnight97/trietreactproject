@@ -1,0 +1,14 @@
+.close-button-wrapper {
+  padding: 0;
+  margin: 0;
+  outline: none !important;
+  border: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    width: 16px;
+    height: 16px;
+    color: $gray-8;
+  }
+}

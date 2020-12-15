@@ -1,0 +1,54 @@
+.details-page {
+  &-main {
+    width: 100%;
+    height: 100%;
+    .ant-page-header-heading {
+      flex-wrap: nowrap;
+    }
+  }
+  &-header {
+    background-color: $gray-1;
+    padding: $size-8 $size-24;
+    position: initial;
+  }
+  &-content {
+    display: flex;
+    padding: $size-24 $size-24 $size-24 $size-24;
+    height: calc(100% - 4rem);
+    &-left {
+      height: 100%;
+      overflow: auto;
+      background-color: $gray-1;
+      scrollbar-width: none; //firefox
+      min-width: $size-250;
+    }
+    &-right {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      background-color: $gray-1;
+      .ant-tabs-nav {
+        padding-left: $size-24;
+        margin-bottom: 0;
+      }
+      .ant-tabs-top {
+        height: 100%;
+      }
+      .tab-header {
+        font-size: $size-16;
+      }
+      .ant-tabs-content-holder {
+        overflow: auto;
+        scrollbar-width: none; //firefox
+      }
+      .ant-tabs-content {
+        height: 100%;
+      }
+    }
+  }
+
+  .ant-row {
+    height: 100%;
+  }
+}

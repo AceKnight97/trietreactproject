@@ -1,0 +1,9 @@
+.search-bar-wrapper {
+  .is-inactive {
+    .ant-input-prefix {
+      svg {
+        color: $gray-6;
+      }
+    }
+  }
+}

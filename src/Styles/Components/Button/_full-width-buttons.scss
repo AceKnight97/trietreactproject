@@ -1,0 +1,11 @@
+.full-width-buttons-wrapper {
+  margin-top: $size-48;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  // width: 55.55%;
+  .buttton-with {
+    width: 40%;
+  }
+}

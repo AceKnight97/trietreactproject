@@ -1,0 +1,40 @@
+.close-bar-wrapper {
+  height: $size-56;
+  width: 100%;
+  background: $gray-1;
+  border: $size-1 solid $gray-3;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    span {
+      width: $size-24 !important;
+      height: $size-24 !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    svg {
+      width: $size-15;
+      height: $size-15;
+      color: $gray-9 !important;
+    }
+  }
+
+  padding: 0 $size-24;
+  .close-bar-title {
+    font-weight: 600;
+    font-size: $size-20;
+    line-height: $size-28;
+    display: flex;
+    align-items: center;
+    color: $gray-9;
+  }
+  .close-bar-button {
+    width: $size-32;
+    height: $size-32;
+  }
+}

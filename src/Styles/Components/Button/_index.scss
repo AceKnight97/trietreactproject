@@ -1,0 +1,10 @@
+@import "./close-button";
+@import "./edit-button";
+@import "./blue1-bg-button";
+@import "./half-right-buttons";
+@import "./full-width-buttons";
+
+.ant-drawer-close {
+    outline: none !important;
+    box-shadow: none !important;
+}

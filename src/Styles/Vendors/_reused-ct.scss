@@ -1,0 +1,109 @@
+.footer-buttton-div {
+  margin-top: $size-48;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  // width: 55.55%;
+  .buttton-with {
+    width: 40%;
+  }
+}
+
+.size-12-n-g8 {
+  font-size: $size-12;
+  line-height: $size-20;
+  display: flex;
+  align-items: center;
+  color: $gray-8;
+}
+
+.size-14-n-g8 {
+  font-size: $size-14;
+  line-height: $size-22;
+  display: flex;
+  align-items: center;
+  color: $gray-8;
+}
+
+.size-14-n-g9 {
+  font-size: $size-14;
+  line-height: $size-22;
+  // display: flex;
+  // align-items: center;
+  color: $gray-9;
+}
+.size-16-n-g8 {
+  font-size: $size-16;
+  line-height: $size-24;
+  display: flex;
+  align-items: center;
+  color: $gray-8;
+}
+.size-16-n-g9 {
+  font-size: $size-16;
+  line-height: $size-24;
+  display: flex;
+  align-items: center;
+  color: $gray-9;
+}
+
+.size-16-b-g9 {
+  font-weight: 600;
+  font-size: $size-16;
+  line-height: $size-24;
+  display: flex;
+  align-items: center;
+  color: $gray-9;
+}
+
+.size-20-b-g9 {
+  font-weight: 600;
+  font-size: $size-20;
+  line-height: $size-28;
+  display: flex;
+  align-items: center;
+  color: $gray-9;
+}
+.size-38-b-g9 {
+  font-weight: 600;
+  font-size: $size-38;
+  line-height: $size-46;
+  color: $gray-9;
+}
+
+.pad-l24-t8 {
+  margin-top: $size-8;
+  padding-left: $size-24;
+}
+
+.bas-btn {
+  border: none;
+  outline: none !important;
+  background-color: transparent;
+  // padding: 0;
+  // margin: 0;
+}
+.bas-0-btn {
+  border: none;
+  outline: none !important;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.mt4-padl24 {
+  margin-top: $size-4;
+  padding-left: $size-24;
+}
+.mt4-padl48 {
+  margin-top: $size-4;
+  padding-left: $size-48;
+}
+.border-none {
+  border: none !important;
+}
+.blue-btn {
+  color: $blue-6;
+  border-color: $blue-6;
+}

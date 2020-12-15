@@ -1,0 +1,14 @@
+.upload-img-ct-wrapper {
+  .ant-upload {
+    height: auto !important;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: $size-104;
+    color: $gray-8;
+    img {
+      max-width: $size-250;
+    }
+  }
+}

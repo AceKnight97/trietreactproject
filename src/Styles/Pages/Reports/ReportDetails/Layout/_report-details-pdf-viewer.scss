@@ -1,0 +1,43 @@
+.report-details-pdf-viewer-wrapper {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  // background-color: white;
+  position: relative;
+  .pdf-viewer-footer-buttons {
+    position: absolute;
+    left: $size-24;
+    bottom: $size-24;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: $size-4;
+
+    background: $bg-000-opacity-05;
+
+    box-shadow: $elevation-1;
+    border-radius: $size-2;
+    .custom-btn {
+      display: flex;
+    }
+    button {
+      border: none;
+      // padding: $size-7;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .pdf-viewer-footer-stick {
+      height: $size-24;
+      width: $size-1;
+      background-color: white;
+      align-self: center;
+    }
+  }
+}

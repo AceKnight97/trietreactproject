@@ -1,0 +1,30 @@
+.new-header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: $size-56;
+  width: 100%;
+  background-color: white;
+  .ant-menu {
+    height: 100%;
+    width: 100%;
+  }
+  .ant-menu-item {
+    padding-top: $size-6 !important;
+    margin: 0 $size-24 !important;
+    height: 100%;
+  }
+  .div-add-new-patient {
+    height: 100%;
+    border-bottom: $size-1 solid $bg;
+    display: flex;
+    align-items: center;
+    padding-right: $size-24;
+    button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+}

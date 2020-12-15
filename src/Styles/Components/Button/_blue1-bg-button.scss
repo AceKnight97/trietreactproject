@@ -1,0 +1,18 @@
+.blue1-bg-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: $size-40;
+  width: 100%;
+  background-color: $blue-1;
+  .ant-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .anticon {
+      width: $size-16;
+      height: $size-16;
+    }
+  }
+}

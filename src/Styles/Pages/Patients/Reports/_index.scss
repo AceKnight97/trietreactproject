@@ -1,0 +1,15 @@
+@import "./Layout/index";
+
+.patient-details-report-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  .patient-details-report-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: calc(700% / 9);
+    padding: $size-24;
+  }
+}

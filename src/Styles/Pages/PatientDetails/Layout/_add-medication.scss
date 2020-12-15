@@ -1,0 +1,59 @@
+.add-medication-wrapper {
+  display: flex;
+  flex-direction: column;
+  .add-medication-body {
+    padding: $size-24;
+  }
+  .ttt-item,
+  .ttt-item {
+    margin-top: $size-8;
+    width: 50%;
+    position: relative;
+  }
+  .item-left {
+    padding-right: $size-8;
+  }
+  .item-right {
+    padding-left: $size-8;
+  }
+  .item-button {
+    z-index: 2;
+    position: absolute;
+    top: $size-10;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    display: flex;
+    height: auto;
+  }
+  .right-22 {
+    right: $size-18;
+  }
+  .right-10 {
+    right: $size-10;
+  }
+  .time-to-take-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .button-wrapper {
+    margin-top: $size-8;
+    width: 50%;
+  }
+  .add-more-button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: $blue-1;
+    border-radius: $size-2;
+  }
+  .ant-btn > span {
+    margin-left: 0 !important;
+  }
+}

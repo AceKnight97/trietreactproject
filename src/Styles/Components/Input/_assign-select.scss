@@ -1,0 +1,36 @@
+.assign-select-wrapper {
+  .assign-select-outside-res {
+    margin-top: $size-16;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: $size-48;
+  }
+
+  .result-tag {
+    padding: $size-8 $size-16;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    .ant-tag-close-icon {
+      width: $size-16;
+      height: $size-16;
+      font-size: $size-10;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.assign-drawer-dropdown {
+  .ant-select-item-option-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .ant-select-item:hover,
+  .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+    background: $blue-1;
+  }
+}

@@ -1,0 +1,16 @@
+.unit-input-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+  .unit-input-left {
+    width: 77.59%;
+    margin-right: $size-8;
+  }
+  .unit-input-right {
+    flex: 1;
+    align-self: flex-end;
+  }
+}

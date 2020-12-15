@@ -1,0 +1,19 @@
+.display-data-1-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .display-data-1-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: $size-16;
+  }
+  .data-1-icon {
+    margin-right: $size-8;
+    width: $size-16;
+    height: $size-16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

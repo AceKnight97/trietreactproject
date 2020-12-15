@@ -1,0 +1,10 @@
+.login-footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-top: $size-24;
+  button {
+    padding-left: $size-8;
+  }
+}

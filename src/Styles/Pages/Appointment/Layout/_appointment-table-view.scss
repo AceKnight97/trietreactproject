@@ -1,0 +1,26 @@
+.appointment-table-view-wrapper {
+  height: 100%;
+  padding: $size-24;
+  background: $gray-1;
+  border-radius: $size-2;
+  .ant-row {
+    height: auto !important;
+  }
+  .appointment-table-view {
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+    &-current-date {
+      font-weight: 600;
+      font-size: $size-16;
+      line-height: $size-24;
+      display: flex;
+      align-items: center;
+      color: $gray-9;
+      height: 100%;
+    }
+  }
+}

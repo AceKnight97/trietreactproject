@@ -1,0 +1,141 @@
+// define color variables
+$bg: #f0f2f5;
+$gray-1: #ffffff;
+$gray-2: #fafafa;
+$gray-3: #f5f5f5;
+$gray-4: #e8e8e8;
+$gray-5: #d9d9d9;
+$gray-6: #bfbfbf;
+$gray-7: #8c8c8c;
+$gray-8: #595959;
+$gray-9: #262626;
+$gray-10: #000000;
+
+$blue-1: #e6f7ff;
+$blue-5: #40a9ff;
+$blue-6: #1890ff;
+$blue-7: #096dd9;
+
+$geekblue-2: #d6e4ff;
+$geekblue-5: #597ef7;
+
+$red-2: #ffccc7;
+$red-5: #ff4d4f;
+$red-6: #f5222d;
+
+$gold-2: #fff1b8;
+$gold-6: #faad14;
+
+$volcano-2: #ffd8bf;
+$volcano-6: #fa541c;
+
+$orange-2: #ffe7ba;
+$orange-6: #fa8c16;
+
+$lime-3: #eaff8f;
+$lime-7: #7cb305;
+
+$green-2: #d9f7be;
+$green-6: #52c41a;
+
+$cyan-2: #b5f5ec;
+$cyan-6: #13c2c2;
+
+$purple-2: #efdbff;
+$purple-4: #b37feb;
+
+$magenta-2: #ffd6e7;
+$magenta-5: #f759ab;
+
+// CHART COLORS
+$gold-5: #ffc53d;
+$green-4: #95de64;
+$purple-5: #9254de;
+// lime-3
+$cyan-3: #87e8de;
+// red-5
+$geekblue-3: #597ef7;
+$magenta-4: #ff85c0;
+
+// define font size variables
+$size-0-3: -0.1875rem;
+$size-1: 0.0625rem;
+$size-2: 0.125rem;
+$size-4: 0.25rem;
+$size-5: 0.3125rem;
+$size-6: 0.375rem;
+$size-7: 0.4375rem;
+$size-8: 0.5rem;
+$size-10: 0.625rem;
+$size-12: 0.75rem;
+$size-12-05: 0.78125rem;
+$size-14: 0.875rem;
+$size-15: 0.9375rem;
+$size-16: 1rem;
+$size-17: 1.0625rem;
+$size-18: 1.125rem;
+$size-20: 1.25rem;
+$size-20-05: 1.253125rem;
+$size-22: 1.375rem;
+$size-23: 1.4375rem;
+$size-24: 1.5rem;
+$size-25: 1.5625rem;
+$size-26: 1.625rem;
+$size-28: 1.74rem;
+$size-30: 1.875rem;
+$size-32: 2rem;
+$size-34: 2.125rem;
+$size-36: 2.25rem;
+$size-38: 2.375rem;
+$size-40: 2.5rem;
+$size-45: 2.8125rem;
+$size-46: 2.875rem;
+$size-48: 3rem;
+$size-50: 3.125rem;
+$size-52: 3.25rem;
+$size-54: 3.375rem;
+$size-56: 3.5rem;
+$size-64: 4rem;
+$size-68: 4.25rem;
+$size-70: 4.375rem;
+$size-76: 4.75rem;
+$size-80: 5rem;
+$size-100: 6.25rem;
+$size-104: 6.5rem;
+$size-120: 7.5rem;
+$size-145: 9.0625rem;
+$size-148: 9.25rem;
+$size-180: 11.25rem;
+$size-250: 15.625rem;
+$size-200: 12.5rem;
+$size-250: 15.625rem;
+$size-285: 17.8125rem;
+$size-522: 32.625rem;
+$size-610: 38.125rem;
+$size-800: 50rem;
+
+$bg-000-opacity-05: rgba(0, 0, 0, 0.5);
+
+$elevation-1: 0px 2px 8px rgba(0, 0, 0, 0.15);
+
+.text-color-blue-7 {
+  color: $blue-7 !important;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+
+.fw-normal {
+  font-weight: normal !important;
+}
+
+.color-green-6 {
+  color: $green-6;
+}
+.color-red-5 {
+  color: $red-5;
+}
+.color-gray-10 {
+  color: $gray-10 !important;
+}

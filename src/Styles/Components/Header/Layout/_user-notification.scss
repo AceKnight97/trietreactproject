@@ -1,0 +1,103 @@
+.user-notification-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  .clear-all-btn {
+    border-bottom: $size-1 solid $gray-3;
+  }
+  .user-notification-clear-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      width: max-content !important;
+      height: max-content !important;
+      color: $blue-6;
+    }
+  }
+  .user-notification-body {
+    padding: $size-24;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .noti-item-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: $size-12 0;
+    position: relative;
+    border-bottom: $size-1 solid $gray-4;
+    // align-items: center;
+  }
+  .noti-icon {
+    width: $size-24;
+    height: $size-24;
+    color: $blue-6;
+    margin-right: $size-16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .noti-item-data {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .noti-item-title {
+    font-weight: 600;
+    font-size: $size-16;
+    line-height: $size-24;
+    display: flex;
+    align-items: center;
+    color: $blue-7;
+  }
+  .noti-item-content {
+    margin-top: $size-4;
+    font-weight: normal;
+    font-size: $size-14;
+    line-height: $size-22;
+    display: flex;
+    align-items: center;
+    color: $gray-9;
+  }
+  .noti-item-title-read,
+  .noti-item-content-read {
+    color: $gray-8 !important;
+    font-weight: normal !important;
+  }
+  .noti-icon-read {
+    color: $gray-7 !important;
+  }
+  .noti-item-time {
+    margin-top: $size-4;
+    font-weight: normal;
+    font-size: $size-12;
+    line-height: $size-20;
+    display: flex;
+    align-items: center;
+    color: $gray-7;
+  }
+  .noti-item-delete-btn {
+    display: none;
+  }
+  .noti-item-wrapper:hover {
+    .noti-item-delete-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      outline: none !important;
+      border: none;
+      position: absolute;
+      top: $size-12;
+      right: 0;
+
+      width: $size-34;
+      height: $size-26;
+    }
+  }
+}

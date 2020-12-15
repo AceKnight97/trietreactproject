@@ -1,0 +1,13 @@
+.scoring-table {
+    &-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ant-table-tbody > tr > td {
+        height: 65px;
+    }
+    .ant-table-cell {
+        white-space: break-spaces;
+    }
+}

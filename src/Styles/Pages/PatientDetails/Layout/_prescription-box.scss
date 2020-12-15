@@ -1,0 +1,103 @@
+.prescription-box-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  // min-height: $size-148;
+  border: $size-1 solid $gray-4;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  width: 100%;
+
+  .prescription-box-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: $gray-2;
+  }
+  .header-item {
+    width: 100%;
+    height: $size-54;
+    display: flex;
+    padding: $size-16;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: $size-14;
+    line-height: $size-22;
+    color: $gray-9;
+  }
+  .prescription-box-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: normal;
+    font-size: $size-14;
+    line-height: $size-22;
+    color: $gray-8;
+    .no-data-item {
+      width: 100%;
+      padding: $size-16;
+      // min-height: $size-76;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // flex-direction: column;
+      font-size: $size-14;
+      line-height: $size-22;
+      color: $gray-8;
+    }
+    .data-item-row {
+      width: 100%;
+      border-top: $size-1 solid $gray-4;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .data-item {
+      width: 100%;
+      padding: $size-16;
+      min-height: $size-76;
+      display: flex;
+      flex-direction: column;
+      font-size: $size-14;
+      line-height: $size-22;
+      color: $gray-9;
+    }
+  }
+}
+.add-medication-button {
+  border: $size-1 solid $gray-4;
+  border-top: none;
+}
+
+.ant-collapse {
+  border: none;
+  background: transparent;
+  .ant-collapse-item {
+    border: none;
+  }
+  .ant-collapse-arrow {
+    position: relative !important;
+    top: 0 !important;
+    left: $size-12 !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .ant-collapse-header {
+    padding: 0 !important;
+    display: flex;
+    flex-direction: row-reverse;
+    width: max-content;
+  }
+  .ant-collapse-content {
+    border: none;
+  }
+  .ant-collapse-content-box {
+    padding: 0;
+  }
+}

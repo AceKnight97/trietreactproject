@@ -1,0 +1,16 @@
+.success-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 $size-32;
+  .success-page-main {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: $size-10;
+  }
+}

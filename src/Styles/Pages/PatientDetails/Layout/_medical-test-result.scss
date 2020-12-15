@@ -1,0 +1,32 @@
+.medical-test-result {
+    &-main {
+        height: 100%;
+    }
+    &-menu {
+        width: $size-200;
+        padding-top: $size-16;
+        .ant-menu {
+            height: 100%;
+        }
+    }
+    &-content {
+        padding: $size-24;
+        .ant-empty {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .ant-empty-image {
+            height: $size-180;
+        }
+        .content-wrapper{
+            height: 100%;
+            width: 100%;
+            .add-new-test-result,
+            .edit-test-result{
+                padding: 0 25% 0 25%;
+            }
+        }
+    }
+}

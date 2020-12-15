@@ -1,0 +1,25 @@
+.vertical-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  // justify-content: center;
+  // align-items: center;
+  margin-right: $size-16;
+  .vertical-text-title {
+    font-size: $size-12;
+    line-height: $size-20;
+    color: $gray-8;
+    font-weight: 400;
+  }
+  .vertical-text-content {
+    font-weight: 600;
+    font-size: $size-14;
+    line-height: $size-22;
+    color: $gray-9;
+  }
+}
+.vertical-text-separator {
+  height: $size-32;
+  width: $size-1;
+  background-color: $gray-5;
+}

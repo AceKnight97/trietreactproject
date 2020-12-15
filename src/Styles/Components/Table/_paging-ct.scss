@@ -1,0 +1,12 @@
+.paging-ct-wrapper {
+  display: flex;
+  flex-direction: row;
+  // justify-content: space-between;
+  align-items: center;
+
+  width: max-content;
+  height: $size-32;
+
+  margin-top: $size-24;
+  align-self: flex-end;
+}

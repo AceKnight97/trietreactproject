@@ -1,0 +1,50 @@
+.multiple-checkbox-wrapper {
+  align-items: flex-start !important;
+  .checkbox-item {
+    height: $size-26;
+  }
+  .multiple-checkbox-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: $size-8;
+  }
+  .checkbox-ct-title {
+    // margin-bottom: $size-8 !important;
+    font-weight: 600;
+  }
+  .checkbox-suffix {
+    font-weight: normal;
+    font-size: $size-14;
+    line-height: $size-22;
+    color: $gray-8;
+  }
+  .multiple-checkbox-content {
+    padding-left: $size-24;
+    font-weight: normal;
+    color: $gray-8;
+    line-height: $size-22;
+    font-size: $size-14;
+  }
+  .multiple-checkbox-value {
+    display: flex;
+    flex-direction: column;
+  }
+  .checkbox-title {
+    margin-bottom: $size-24;
+    font-weight: 600;
+    font-size: $size-16;
+    line-height: $size-24;
+    display: flex;
+    align-items: center;
+
+    color: $gray-9;
+  }
+  .ant-checkbox-wrapper + .ant-checkbox-wrapper {
+    margin-left: 0;
+  }
+  .date-sub-component {
+    padding: $size-8 0 0 $size-24;
+  }
+}

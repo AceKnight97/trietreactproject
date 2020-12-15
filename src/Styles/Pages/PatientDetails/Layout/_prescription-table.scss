@@ -1,0 +1,24 @@
+.prescription-table-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  .prescription-table {
+    &-main {
+      // border: $size-1 solid $gray-4;
+      box-sizing: border-box;
+      border-radius: 2px;
+      border-bottom: none;
+    }
+    &-footer-button {
+      border: $size-1 solid $gray-4;
+      box-sizing: border-box;
+      border-radius: 2px;
+      border-top: none;
+    }
+  }
+
+  .min-height-45 {
+    min-height: $size-45;
+  }
+}

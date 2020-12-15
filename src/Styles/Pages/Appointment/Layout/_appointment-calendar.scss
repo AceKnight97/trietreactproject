@@ -1,0 +1,33 @@
+.appointment-calendar {
+  .calendar-header {
+    height: $size-68;
+    padding: 0 $size-16;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .month-year-text {
+    display: flex;
+    flex-direction: column;
+    // color: $gray-9;
+    // font-weight: 600;
+    // font-size: $size-16;
+    // line-height: $size-24;
+  }
+  .calendar-header-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .ant-picker-body {
+    padding: $size-12 $size-8 $size-16 $size-8 !important;
+  }
+  table > thead > tr {
+    height: $size-36;
+  }
+  table > thead > tr > th {
+    font-weight: 600;
+    color: $gray-8;
+  }
+}

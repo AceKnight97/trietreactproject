@@ -1,0 +1,12 @@
+.normal-cell-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  // justify-content: center;
+  font-weight: 400;
+  color: $gray-8;
+  padding-left: 0;
+}
+.patient-name-pointer {
+  cursor: pointer;
+}

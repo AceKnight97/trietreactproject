@@ -1,0 +1,47 @@
+.report-details-header-wrapper {
+  height: $size-64;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  background: $gray-1;
+  border: 1px solid $gray-4;
+  border-top: none;
+  padding: 0 $size-24;
+
+  .report-details-header-left-view {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+  }
+  .back-icon-btn {
+    font-size: $size-17;
+    color: black;
+    margin-right: $size-24;
+  }
+  .report-details-header-right-view {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .report-details-header-reviewed-btn {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: $gray-1;
+    border-radius: $size-2;
+    border: $size-1 solid $gray-4;
+    padding: $size-4 $size-8;
+    .ant-checkbox-wrapper {
+      color: $gray-8;
+    }
+  }
+  .reviewed-check {
+    border: 1px solid $blue-5 !important;
+  }
+}

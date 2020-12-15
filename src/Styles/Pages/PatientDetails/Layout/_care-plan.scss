@@ -1,0 +1,38 @@
+.care-plan {
+    &-main {
+        height: 100%;
+    }
+    &-menu {
+        width: $size-200;
+    }
+    &-content {
+        .ant-empty {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .ant-empty-image {
+            height: $size-180;
+        }
+        .edit-care-plan-button {
+            margin-top: $size-24;
+            width: calc(200% / 7);
+        }
+        .care-plan-overview-wrapper,
+        .care-plan-diseases-info-wrapper,
+        .care-plan-prescription-wrapper,
+        .care-plan-report-settings-wrapper {
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            height: 100%;
+            width: 100%;
+            background-color: white;
+            // padding: $size-8 $size-24 $size-24 $size-24;
+            padding: $size-24;
+
+            overflow: auto;
+        }
+    }
+}

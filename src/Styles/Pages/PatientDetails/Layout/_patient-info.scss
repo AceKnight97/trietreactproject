@@ -1,0 +1,87 @@
+// .patient-info-drawer-wrapper {
+.patient-info {
+    &-main {
+        padding: $size-24;
+        .ant-avatar {
+            overflow: unset !important;
+        }
+    }
+    &-title {
+        padding: $size-16 0 0 0;
+    }
+    &-subtitle {
+        color: $gray-8;
+        .patient-id {
+            padding-right: $size-16;
+            border-right: $size-1 solid $gray-5;
+        }
+        .patient-gender {
+            padding-left: $size-16;
+        }
+    }
+    &-container {
+        .container-title span:not(:first-child) {
+            margin-top: $size-8;
+        }
+        .container-content {
+            padding-left: $size-16;
+        }
+        .container-content span:not(:first-child) {
+            margin-top: $size-8;
+        }
+    }
+    &-drawer-header {
+        border-color: $gray-3 !important;
+        .modal-header-title {
+            font-size: $size-20 !important;
+            line-height: $size-28 !important;
+        }
+        button {
+            span {
+                width: $size-24;
+                height: $size-24;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+.details-devider {
+    border-bottom: $size-1 solid $gray-4;
+    padding-top: $size-12;
+    margin-bottom: $size-12;
+}
+.ant-drawer-footer {
+    padding: 0 $size-24 $size-24 $size-24;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+        width: 100%;
+    }
+}
+.patient-info-drawer-footer {
+    margin-top: $size-24;
+    width: 100%;
+    button {
+        width: 100%;
+    }
+}
+
+.patient-info-drawer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.patient-info-body {
+    padding: $size-24;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    overflow: auto;
+}

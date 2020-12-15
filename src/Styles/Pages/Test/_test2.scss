@@ -1,0 +1,41 @@
+.test2-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .header-56,
+  .right-details-header {
+    height: $size-56;
+    background-color: skyblue;
+  }
+  .test2-body {
+    width: 100%;
+    height: 100%;
+    padding: $size-24;
+  }
+  .left-details {
+    background-color: salmon;
+    height: 100%;
+    display: flex;
+  }
+  .right-details {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ant-row {
+    height: 100%;
+  }
+  .right-details-body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+  .body-column {
+    width: 22.22%;
+    background-color: rebeccapurple;
+    height: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+.input-address-wrapper {
+  .disaled-input {
+  }
+  .input-address-main {
+    width: 100%;
+    height: $size-32;
+    background: $gray-1;
+    border: $size-1 solid $gray-5;
+    box-sizing: border-box;
+    border-radius: $size-2;
+    outline: none !important;
+    padding: 0 $size-12;
+  }
+  .input-address-main::-webkit-input-placeholder {
+    color: $gray-6;
+  }
+}

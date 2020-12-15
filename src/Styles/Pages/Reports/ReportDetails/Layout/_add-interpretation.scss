@@ -1,0 +1,51 @@
+.add-modal-wrapper {
+  display: flex;
+  flex-direction: column;
+  background: $gray-1;
+  .add-modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $size-24;
+    display: flex;
+    flex-direction: column;
+
+    .add-body-main {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+    }
+    .add-body-signature {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      position: relative;
+      textarea {
+        height: 200px;
+      }
+      .undo-button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: $size-8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: $size-40;
+        height: $size-40;
+        span {
+          width: $size-24;
+          height: $size-24;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        svg {
+          width: $size-18;
+          height: $size-18;
+          color: $gray-8;
+        }
+      }
+    }
+  }
+}

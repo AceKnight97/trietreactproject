@@ -1,0 +1,18 @@
+/*!
+ * GenesisUI - Bootstrap 4 Admin Template
+ * @version v1.8.12
+ * @link https://genesisui.com
+ * Copyright (c) 2017 creativeLabs Łukasz Holeczek
+ * @license https://genesisui.com/license.html
+ */
+
+// Import Bootstrap source files
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "variables";
+@import "reset";
+@import "./Components/index";
+@import "./Modal/index";
+@import "./Pages/index";
+@import "./Vendors/index";
+@import "flex-box";
+

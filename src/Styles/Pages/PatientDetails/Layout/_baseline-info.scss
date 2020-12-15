@@ -1,0 +1,44 @@
+.baseline-info-main {
+    padding: $size-24 $size-40 $size-24 $size-24;
+    height: 100%;
+    width: 100%;
+    .baseline-info-view {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .baseline-info-main-body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .baseline-edit-step-wrapper {
+        width: calc(500% / 9);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .edit-baseline-info {
+        height: 100%;
+        padding: 0 25% $size-32 25%;
+    }
+    .multi-info-table {
+        position: relative;
+        .edit-button {
+            position: absolute;
+            right: 0;
+        }
+    }
+    .ant-empty-image {
+        height: $size-180;
+    }
+    .multi-info-table:hover {
+        .edit-button {
+            display: flex !important;
+        }
+    }
+}

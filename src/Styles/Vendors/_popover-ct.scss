@@ -1,0 +1,28 @@
+.dropdown-input-address-popover {
+  .popover {
+    .arrow {
+      display: none;
+    }
+    border: none !important;
+  }
+  .suggestion-item {
+    cursor: pointer;
+    background-color: white;
+    color: $gray-9;
+    overflow: hidden;
+    padding: 4px 8px;
+    font-size: $size-14;
+  }
+  .active-item {
+    background-color: $gray-3;
+  }
+  .suggestion-inner {
+    display: flex;
+    flex-direction: column;
+    border-radius: $size-8;
+    overflow: auto;
+  }
+  .have-suggestions {
+    border: $size-1 solid $gray-3;
+  }
+}

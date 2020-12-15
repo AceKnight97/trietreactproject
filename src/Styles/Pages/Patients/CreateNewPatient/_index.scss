@@ -1,0 +1,41 @@
+@import "./Layout/index";
+
+.page-title {
+  font-weight: 600;
+  font-size: $size-16;
+  line-height: $size-24;
+  display: flex;
+  align-items: center;
+  color: $gray-9;
+}
+
+.create-new-patient-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  // height: 100%;
+  .create-new-patient-body {
+    width: 100%;
+    flex: 1;
+    padding: $size-24;
+    .create-new-patient-body-left,
+    .create-new-patient-body-right {
+      padding: $size-24;
+      background-color: white;
+      height: 100%;
+      border-radius: $size-2;
+    }
+    .create-new-patient-body-right {
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      align-items: center;
+    }
+    .body-step-height {
+      height: $size-285;
+    }
+  }
+  .ant-row {
+    height: 100%;
+  }
+}

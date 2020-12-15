@@ -1,0 +1,13 @@
+@import "./position-ct";
+@import "./popover-ct";
+@import "./custom-style";
+@import "./reused-ct";
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.ant-select-selection-item-remove {
+    display: flex !important;
+    align-items: center;
+}

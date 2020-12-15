@@ -1,0 +1,38 @@
+.upload-files-ct-wrapper {
+  .ant-upload {
+    width: 100%;
+    min-height: $size-64;
+
+    font-weight: normal;
+    font-size: $size-14;
+    line-height: $size-22;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: $gray-8;
+    background: $gray-2;
+
+    border: $size-1 dashed $gray-5;
+    box-sizing: border-box;
+    border-radius: $size-2;
+  }
+  .upload-files-ct-main {
+    width: 100%;
+    height: 100%;
+  }
+  .upload-files-button {
+    border: none !important;
+    outline: none !important;
+    color: $gray-8;
+
+    white-space: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ant-upload-list {
+    color: $blue-6;
+  }
+}

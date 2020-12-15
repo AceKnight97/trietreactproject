@@ -1,0 +1,10 @@
+.step-ct-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .ant-steps-item-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,15 @@
+.half-right-buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .footer-buttons {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cancel-button,
+  .add-button {
+    width: calc(50% - 0.75rem);
+  }
+}

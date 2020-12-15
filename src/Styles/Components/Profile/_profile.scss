@@ -1,0 +1,30 @@
+.profile {
+  &-wrapper {
+  }
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $size-14 $size-25;
+    border-bottom: 1px solid $gray-3;
+  }
+  &-close-btn {
+    color: $gray-10 !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $size-15;
+    width: $size-24;
+    height: $size-24;
+  }
+  &-content {
+    padding: $size-24;
+  }
+  &-avatar {
+    display: flex;
+    align-items: center;
+  }
+}

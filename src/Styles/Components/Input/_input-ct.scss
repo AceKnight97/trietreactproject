@@ -1,0 +1,43 @@
+.input-ct-wrapper {
+  .basic-number-format {
+    width: 100%;
+    height: $size-32;
+
+    background: $gray-1;
+
+    border: $size-1 solid $gray-5;
+    box-sizing: border-box;
+    border-radius: $size-2;
+
+    padding: 0 $size-12;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    outline: none !important;
+  }
+  .basic-number-format:disabled {
+    cursor: not-allowed;
+  }
+  .basic-number-format::-webkit-input-placeholder {
+    color: $gray-6;
+  }
+  .input-left {
+    width: 50%;
+    padding-right: $size-4;
+  }
+  .input-right {
+    width: 50%;
+    padding-left: $size-4;
+  }
+  .frequency-input {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  input:disabled {
+    background-color: $gray-3;
+    color: $gray-9;
+  }
+}

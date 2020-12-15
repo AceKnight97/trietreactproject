@@ -1,0 +1,34 @@
+@import "./Layout/patient-details";
+@import "./Layout/patient-info";
+@import "./Layout/initial-intake-info";
+@import "./Layout/baseline-info";
+@import "./Layout/care-plan";
+@import "./Layout/input-baseline-info";
+
+@import "./Layout/md-prescription";
+@import "./Layout/prescription-box";
+@import "./Layout/add-medication";
+@import "./Layout/stop-health-care-modal";
+
+@import "./Layout/md-report-settings";
+@import "./Layout/md-notification-report-triggers";
+
+@import "./Layout/md-diseases-information";
+
+@import "./Layout/care-plan-overview";
+@import "./Layout/care-plan-overview-input";
+
+@import "./Layout/care-plan-diseases-info";
+
+@import "./Layout/care-plan-prescription";
+@import "./Layout/care-plan-report-settings";
+
+@import "./Layout/medical-test-result";
+
+@import "./Layout/tab-menu";
+
+@import "./Layout/prescription-table";
+
+.care-plan-overview-input-wrapper {
+  overflow: auto;
+}

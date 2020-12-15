@@ -1,0 +1,40 @@
+@import "./input-title";
+@import "./input-ct";
+@import "./select-ct";
+@import "./datepicker-ct";
+@import "./upload-img-ct";
+@import "./upload-files-ct";
+@import "./checkbox-ct";
+@import "./radio-ct";
+@import "./yes-no-radio";
+@import "./pair-input";
+@import "./unit-input";
+@import "./input-address";
+@import "./multiple-checkbox";
+@import "./row-selection";
+@import "./assign-select";
+
+.ant-select,
+.ant-picker,
+.ant-upload,
+.ant-radio-group {
+  width: 100% !important;
+}
+
+.ant-select-selector {
+  padding: 0 $size-10 0 $size-12;
+}
+
+.input-ct-wrapper,
+.select-ct-wrapper,
+.datepicker-ct-wrapper,
+.checkbox-ct-wrapper,
+.radio-ct-wrapper,
+.yes-no-radio-wrapper,
+.input-address-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: max-content;
+}

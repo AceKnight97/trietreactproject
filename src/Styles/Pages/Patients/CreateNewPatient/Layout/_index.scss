@@ -1,0 +1,13 @@
+@import "./new-patient-step1";
+@import "./new-patient-step2";
+@import "./new-patient-step3";
+
+.new-patient-step1-wrapper,
+.new-patient-step2-wrapper,
+.new-patient-step3-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 55.55%;
+  // height: 100%;
+  // border: 1px solid red;
+}

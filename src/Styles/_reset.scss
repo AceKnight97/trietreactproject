@@ -1,0 +1,17 @@
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+
+  > * {
+    font-size: $size-14;
+    color: $gray-9;
+    line-height: $size-22;
+  }
+  .div-root {
+    height: 100vh;
+    &-header{
+      padding: 0;
+    }
+  }
+
+}

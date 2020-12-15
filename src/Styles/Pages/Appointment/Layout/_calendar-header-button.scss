@@ -1,0 +1,14 @@
+.calendar-header-button-wrapper {
+  height: $size-24;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background: $gray-1;
+  border: $size-1 solid $gray-5;
+  box-sizing: border-box;
+  border-radius: $size-2;
+
+  outline: none !important;
+}

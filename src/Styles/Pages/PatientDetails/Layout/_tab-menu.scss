@@ -1,0 +1,10 @@
+.tab-menu-wrapper {
+  // height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: calc(200% / 9);
+  padding-top: $size-16;
+  .ant-menu {
+    height: 100%;
+  }
+}
